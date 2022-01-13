@@ -63,7 +63,7 @@ header{
 
 .banner{
     background: url("../images/Image.jpg");
-    height: 1014px;
+    height: calc(100vh - 27px);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -139,3 +139,143 @@ header{
     opacity: 1;
 
 }
+
+.banner a{
+    bottom: -27px ;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    opacity: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font: normal normal bold 35px/47px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: uppercase;
+
+}
+
+.article{
+    top: 981px;
+    left: 875px;
+    width: 352px;
+    height: 500px;
+    text-align: justify;
+    max-width: 400px;
+}
+
+.article img{
+    width: 352px;
+    height: auto;
+}
+
+h2{
+    text-align: left;
+    font: normal normal normal 19px/26px Nunito Sans;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+    opacity: 1;
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:20px;
+
+}
+
+article p {
+    text-align: left;
+    font: normal normal 300 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+    opacity: 1;
+
+}
+
+.button{
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 40px;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 14px/19px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 50px;
+    background: #28272C;
+}
+
+.service-content{
+    height: 643px;
+    width: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.service img{
+    width: 170px;
+    height: 170px;
+}
+
+.service-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    font: normal normal bold 35px/47px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.service-article{
+    display: inline-block;
+    text-align: center;
+}
+
+.service-article h2{
+    text-align: center;
+    font: normal normal normal 19px/26px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.service-article p{
+    text-align: center;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #B2B2B2;
+    opacity: 1;
+}
+
+
+
