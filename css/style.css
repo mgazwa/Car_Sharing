@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1088px;
+}
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+
+}
+
+.page-header .container{
+
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.page-logo {
+    font: normal normal bold 35px/47px Nunito Sans;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.page-logo strong{
+    color: #FF0000;
+}
+
+.page-nav-list{
+    display: flex;
+    font: normal normal bold 16px/22px Nunito Sans;
+}
+
+.page-nav-list li{
+    margin-left: 20px ;
+}
+
+.page-nav-list a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.banner{
+    background: url("../images/Image.jpg");
+    height: 1014px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.banner::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+
+}
+
+.banner-title{
+    color: white;
+    font: normal normal 900 90px/90px Nunito Sans;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.banner-text{
+    color: white;
+    font: normal normal bold 16px/22px Nunito Sans;
+    width: 1046px;
+    height: 44px;
+    text-align: center;
+}
+
+.btn{
+
+    border-style: none;
+    cursor: pointer;
+    padding: 20px 50px 20px 50px;
+
+}
+
+.btn--primary{
+    top: 485px;
+    left: 451px;
+    width: 220px;
+    height: 66px;
+    color: white;
+    text-transform: uppercase;
+    font: normal normal bold 16px/22px Nunito Sans;
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 40px;
+    opacity: 1;
+
+
+}
+
+.btn--secondary{
+    top: 485px;
+    left: 696px;
+    width: 226px;
+    height: 66px;
+    color: #FF0000;
+    text-transform: uppercase;
+    font: normal normal bold 16px/22px Nunito Sans;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+
+}
